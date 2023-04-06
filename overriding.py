@@ -27,3 +27,9 @@ class It(Employee):
         print("IT Profile")      
         super().showEmployee()     
         print("Divisi : ", self.divisi)
+
+salesman = Salesman("John Doe", "doejohn@gmail.com", "Sales", 572, "Senior")
+salesman.showEmployee()
+print("")
+it = It("Jennifer Smith", "smithjenn@gmail.com", "IT" ,"Web Developer", 5000)
+it.showEmployee()           
