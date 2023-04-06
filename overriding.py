@@ -6,4 +6,4 @@ class Employee:
         self.comm = comm
     
     def showEmployee(self):
-        print("Name : {}\nemail : {}\nDepartment : {} \nCommision : $ {} ".format(self.name, self.email, self.department, self.commission))
+        print("Name : {}\nemail : {}\nDepartment : {} \nCommision : $ {} ".format(self.name, self.email, self.depart, self.comm))
