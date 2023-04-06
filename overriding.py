@@ -17,3 +17,13 @@ class Salesman(Employee):
         print("Salesman Profile")       
         super().showEmployee()      
         print("Level : ", self.level)
+
+class It(Employee):
+    def __init__(self,name, email, department, divisi, commission):
+        super().__init__(name, email, department, commission), 
+        self.divisi = divisi
+              
+    def showEmployee(self):
+        print("IT Profile")      
+        super().showEmployee()     
+        print("Divisi : ", self.divisi)
